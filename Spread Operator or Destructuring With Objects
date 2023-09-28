@@ -1,0 +1,11 @@
+// Spread Operator or Destructuring With Objects
+
+let obj1 = {
+name : "alpha",
+number : 10,
+favorite : "C++",
+}
+
+let obj2 = {...obj1, favorite: "python"};
+
+document.writeln(obj2);
