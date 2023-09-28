@@ -2,5 +2,13 @@
 
 function display(result)
 {
-  
+  console.log(result)
 }
+
+function add(num1, num2, cbf)
+{
+  let sum = num1+num2;
+  cbf(sum)
+}
+
+add(75, 34, display);
