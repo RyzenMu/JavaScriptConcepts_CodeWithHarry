@@ -1,0 +1,12 @@
+// Destructuring 2
+
+let array = [14, 24, 55, 243, 74, 245];
+
+let [a, b, ...rest] = array;
+
+document.writeln(a);
+document.writeln("<br>");
+document.writeln(b);
+document.writeln("<br>");
+document.writeln(rest);
+document.writeln("<br>");
