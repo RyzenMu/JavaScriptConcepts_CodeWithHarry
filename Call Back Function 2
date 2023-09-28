@@ -1,0 +1,15 @@
+// call back function example 2
+
+function function2(result)
+{
+  console.log("The result of the problem is " + result);
+}
+
+function function1(num1, num2, func)
+{
+  let prod = num1 * num2;
+  func(prod)
+
+}
+
+function1(12, 89, function2);
