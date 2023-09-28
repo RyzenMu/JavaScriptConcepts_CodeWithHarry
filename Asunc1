@@ -1,0 +1,7 @@
+// Async programming 1
+
+document.writeln(" Action 1");
+
+setTimeout(() => document.writeln(" Action 2 "), 3000);
+
+document.writeln( " Action 3 ");
