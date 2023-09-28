@@ -1,3 +1,19 @@
 // promise program in java script
 
-let prom = new Promise(() => {});
+let prom = new Promise((resolve, reject) => {
+let a = 1 + 1;
+if (a == 2)
+{
+resolve('sucess');
+}
+else
+{
+reject('failed');
+}
+});
+
+prom.then((message)=>{
+console.log("This is in the " + message);
+}).catch((message)=>{
+console.log("Total failure, THis is in the catch" + message);
+})
