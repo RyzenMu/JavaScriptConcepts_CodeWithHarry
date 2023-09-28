@@ -12,5 +12,5 @@ document.writeln(obj2);
 
 for (let key in obj2)
 {
-  document.writeln(key, obj[key]);
+  document.writeln(key, obj2[key]);
 };
