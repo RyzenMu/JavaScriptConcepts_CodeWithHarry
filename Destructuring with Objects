@@ -1,0 +1,13 @@
+// Destructuring with Objects
+
+let obj1 = {
+name: "amar",
+age : 41,
+occupation : "miner",
+};
+
+let {name, age, occupation} = obj1;
+
+document.writeln(name);
+document.writeln(age);
+document.writeln(occupation);
