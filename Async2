@@ -1,0 +1,5 @@
+// Async Programming
+
+setTimeout( () => document.writeln(" close the laptop");
+ setTimeout( () => document.writeln( " drees up");
+, 1000), 1000)
