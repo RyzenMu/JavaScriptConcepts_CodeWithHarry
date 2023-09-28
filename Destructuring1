@@ -1,0 +1,10 @@
+// Destructuring 1
+
+let array = [23, 34, 45, 56];
+
+let [a, b, c, d] = array;
+
+document.writeln(a+10);
+document.writeln(b+10);
+document.writeln(c+10);
+document.writeln(d+10);
