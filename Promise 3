@@ -1,0 +1,19 @@
+// Promise example 3
+
+let prom3 = new Promise((resolver, rejector)=>{
+  let h = 76;
+  if (h > 50)
+  {
+    resolver("h is greater than 50");
+  }
+  else
+  {
+    rejector("h is lesser than 50");
+  }
+});
+
+prom3.then((message)=>{
+  console.log(message);
+}).catch((message)=>{
+  console.log(message);
+});
