@@ -1,1 +1,11 @@
+// Spread Operator Or Destructuring 1
 
+let v1 = [ 5, 8, 9, 6, 8]
+
+
+function add(a, b, c, d, e)
+{
+  return a+b+c+d+e;
+}
+
+add(...v1);
