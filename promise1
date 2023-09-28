@@ -1,0 +1,3 @@
+// promise program in java script
+
+let prom = new Promise(() => {});
