@@ -1,0 +1,12 @@
+// Async Await example1
+
+Async function myDisplay()
+{
+  let myPromise = new Promise(function(resolve, reject)
+{
+  resolve('I love programming');
+});
+console.log(await myPromise);
+}
+
+myDisplay();
