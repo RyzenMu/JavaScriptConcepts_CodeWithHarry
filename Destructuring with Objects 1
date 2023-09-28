@@ -1,0 +1,13 @@
+// Destructuring with Objects 1
+
+let obj1 = 
+{
+breakFast : "Horlicks",
+lunch : "Chicken Biryani",
+dinner : "Snacks",
+}
+
+let {breakFast, lunch, dinner} = obj1;
+document.writeln(breakFast);
+document.writeln(lunch);
+document.writeln(dinner);
