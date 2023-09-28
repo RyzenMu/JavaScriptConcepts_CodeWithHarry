@@ -3,3 +3,12 @@
 setTimeout( () => document.writeln(" close the laptop");
  setTimeout( () => document.writeln( " drees up");
 , 1000), 1000)
+
+// correct code
+setTimeout(()=>{console.log("this");
+    setTimeout(()=>{console.log("is");
+        setTimeout(()=>{console.log("java");
+            setTimeout(()=>{console.log("script")}, 3000)
+        }, 3000)
+    }, 3000)
+}, 8000)
