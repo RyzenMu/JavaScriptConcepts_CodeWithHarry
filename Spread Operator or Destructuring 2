@@ -1,1 +1,10 @@
+// Spread Operator or Destructuring 2
 
+// if more number of variables present in array then the spread operator will only take 3 variable leaving behind others.
+
+let arr = [3, 8, 9, 4, 8, 9, 16];
+
+function avg(a, b, c)
+{
+  return (a+b+c)/3;
+}
