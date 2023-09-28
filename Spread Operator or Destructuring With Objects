@@ -9,3 +9,8 @@ favorite : "C++",
 let obj2 = {...obj1, favorite: "python"};
 
 document.writeln(obj2);
+
+for (let key in obj2)
+{
+  document.writeln(key, obj[key]);
+};
