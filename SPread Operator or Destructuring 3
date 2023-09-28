@@ -1,1 +1,7 @@
+// Spread Operator or destructuring
 
+let array1 = [ 2, 4, 6, 8, 10];
+
+let array2 = [1, 3, 5, 7, 9, ...array1, 11, 13, 15];
+
+document.writeln(array2);
