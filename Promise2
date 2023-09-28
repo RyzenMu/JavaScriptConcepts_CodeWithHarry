@@ -1,1 +1,19 @@
+//promise example 2
 
+let prom1 = new Promise((res, rej)=>{
+let q = 65+76;
+if (q > 130)
+{
+res('q is greater than 130');
+}
+else
+{
+rej('q is lesser than 130')
+};
+});
+
+prom1.then((mess)=>{
+console.log(mess);
+}).catch((mess)=>{
+console.log(mess);
+});
