@@ -1,0 +1,22 @@
+// async await example 3
+
+
+async function indianweather()
+{
+  let delhiWheather = new Promise((resolve, reject) => {
+    setTimeout(()=>resolve('27 deg'), 3000)
+  });
+  let bangaloreWheather = new Promise((resolve, reject) => {
+    setTimeout(()=>resolve('21 deg'), 5000)
+  });
+  console.log('Fetching delhi wheather, please wait');
+  let delw = await delhiWheather;
+  console.log('the delhi wheatrher is : '+delw);
+  console.log('Fetching Bangalore wheather, please wait');
+  let banw = await bangaloreWheather;
+  console.log('the bangalore wheather is : ' + banw);
+  return [delw, banw];
+}
+console.log("welcome to wheather station")
+indianweather().then((value)=>
+{console.log(value)});
