@@ -1,8 +1,8 @@
 // Async Await example 2
 
-Async function harry()
+async function harry()
 {
   return 5;
 }
 
-harry.then((x)=>{alert(x)});
+harry().then((x)=>{alert(x)});
