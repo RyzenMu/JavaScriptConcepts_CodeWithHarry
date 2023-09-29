@@ -1,0 +1,15 @@
+// async await example 4
+
+async function todayWeather()
+{
+  let coimbatoreWheather = new Promise((resolve, reject)=>{
+    setTimeout(()=>{resolve('25 deg')}, 5000);
+  })
+  let shimlaWeather = new Promise((resolve, reject)=>{
+    setTimeout(()=>resolve('16 deg'), 5000);
+  })
+  let comw = await coimbatoreWheather;
+  let simw = await shimlaWeather;
+  return [comw, simw];
+}
+todayWeather();
